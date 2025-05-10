@@ -100,7 +100,7 @@ function endQuiz() {
     menuBtn.textContent = "Retour au menu";
     menuBtn.style.backgroundColor = "#26a69a"; // Style cohérent avec le thème
     menuBtn.onclick = () => {
-        window.location.href = "index.html"; // Redirection vers la page d'accueil
+        window.location.href = "index.html#quiz"; // Redirection vers la page d'accueil
     };
     optionsDiv.appendChild(menuBtn);
 }
