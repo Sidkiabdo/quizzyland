@@ -82,7 +82,7 @@
     },
     {
       "question": "Quel est le nom de ce personnage ?",
-      "photo": "assest/images/Mikasa.jpg",
+      "photo": "assest\\images\\Mikasa.jpg",
       "answer_1": "Mikasa Ackerman",
       "answer_2": "Nezuko",
       "answer_3": "Sakura",
