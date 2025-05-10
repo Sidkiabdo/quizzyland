@@ -24,7 +24,7 @@ header {
   z-index: 1000;
 }
 header .logo img {
-  height: 40px;
+  height: auto;
 }
 nav {
   display: flex;

@@ -2,86 +2,96 @@
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>QuizzyLand</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizzyLand</title>
+    <link rel="stylesheet" href="css/stylemain.css">
 </head>
 
 <body>
-  <header class="sticky-header">
-    <div class="logo">
-      <img src="assest\logo.png" alt="Logo QuizzyLand" />
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#home">Accueil</a></li>
-        <li><a href="#quiz">Quiz</a></li>
-        <li><a href="#about">À propos de nous</a></li>
-        <li><a href="#contact">Contactez-nous</a></li>
-      </ul>
-      <a href="login.html" class="login-btn">Se connecter</a>
-    </nav>
-  </header>
 
-  <main>
-    <section id="home" class="sect hero">
-      <h1 class="hero-title">Quiz pour Tous</h1>
-      <p class="hero-text">Explorez vos compétences tout en vous amusant.</p>
-      <a href="#quiz" class="cta-button">Commencer</a>
+    <!-- === En-tête (Header) === -->
+    <header>
+        <div class="logo">
+            <img src="assest/logo.png" alt="Logo QuizzyLand">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- === Section d'accueil === -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h2>Bienvenue sur QuizzyLand !</h2>
+            <p>Amusez-vous à tester vos connaissances avec nos quiz interactifs.</p>
+            <a href="#quiz" class="btn-commencer">Commencer</a>
+        </div>
     </section>
 
-    <section id="quiz" class="quiz sect fade-in">
-      <h2>Nos Quiz Disponibles 🎮</h2>
-      <div class="quiz-cards">
-        <div class="quiz-card">
-          <h3>Quiz Drapeaux</h3>
-          <p>Devinez les pays à partir de leurs drapeaux.</p>
-          <a href="quiz-flags.html" class="quiz-btn">choisir</a>
+    <!-- === Section des Quiz === -->
+    <section id="quiz" class="section">
+        <h2>Nos Quiz</h2>
+        <div class="quiz-container">
+            <div class="quiz-card ade-in">
+                <h3>Quiz Drapeaux</h3>
+                <p>Devinez les drapeaux de différents pays.</p>
+                <a href="quiz-flags.html" class="btn">Jouer</a>
+            </div>
+            <div class="quiz-card ade-in">
+                <h3>Quiz Pictoword</h3>
+                <p>Devinez le mot avec des images.</p>
+                <a href="quiz-pictoword.html" class="btn">Jouer</a>
+            </div>
+            <div class="quiz-card ade-in">
+                <h3>Quiz JS</h3>
+                <p>À partir d'une image de code, trouvez le langage de programmation.</p>
+                <a href="quiz-code.html" class="btn">Jouer</a>
+            </div>
+            <div class="quiz-card ade-in">
+                <h3>Quiz personnage</h3>
+                <p>À partir de l'image d'un personnage d'anime ou de serie, devinez son nom.</p>
+                <a href="quiz-anime.html" class="btn">Jouer</a>
+            </div>
         </div>
-        <div class="quiz-card">
-          <h3>Quiz Pictoword</h3>
-          <p>Devinez le mot combiné à partir de deux images.</p>
-          <a href="quiz-pictoword.html" class="quiz-btn">choisir</a>
-        </div>
-        <div class="quiz-card">
-          <h3>Quiz Anime</h3>
-          <p>Reconnaissez le titre d'anime d'apres l'image.</p>
-          <a href="quiz-anime.html" class="quiz-btn">choisir</a>
-        </div>
-        <div class="quiz-card">
-          <h3>Quiz Code</h3>
-          <p>Répondez à des questions sur le code et la logique.</p>
-          <a href="quiz-code.html" class="quiz-btn">choisir</a>
-        </div>
-      </div>
     </section>
 
+    <!-- === Section À propos === -->
+    <section id="apropos" class="section">
+        <h2>À propos de QuizzyLand</h2>
+        <div class="about">
+            <p>QuizzyLand est une plateforme éducative et ludique dédiée à l'apprentissage interactif. 
+                Nous proposons une large gamme de quiz amusants pour tester vos connaissances dans divers domaines.
+                 Que vous soyez passionné par la géographie, la culture générale, ou la programmation,
+                  vous trouverez des défis adaptés à tous les niveaux. 
+                  Notre objectif est de rendre l'apprentissage amusant et stimulant, 
+                  tout en vous permettant de progresser à votre rythme.
+                   Rejoignez-nous et mettez vos compétences à l'épreuve tout en vous amusant sur QuizzyLand !</p>
 
-    <section id="about" class="about sect fade-in">
-      <p>Bienvenue sur <strong>QuizzyLand</strong>, une plateforme interactive pour tester vos connaissances en
-        programmation et développement web.</p>
-      <img src="assest\logo.png" alt="Logo QuizzyLand" />
+            <img src="assest/logo2.png" alt="logo QuizzyLand">
+        </div>
     </section>
 
-    <section id="contact" class="contact sect fade-in">
-      <form>
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="name" />
-
-        <label for="lastname">Prénom :</label>
-        <input type="text" id="lastname" name="lastname" />
-
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email" />
-
-        <label for="message">Message :</label>
-        <textarea id="message" name="message"></textarea>
-
-        <button type="submit">Envoyer</button>
-      </form>
+    <!-- === Section Contact === -->
+    <section id="contact" class="section">
+        <h2>Contactez-nous</h2>
+        <form action="#" method="post">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
     </section>
-  </main>
+
+    <!-- === Pied de page === -->
+    <footer>
+        <p>&copy; 2025 QuizzyLand. Tous droits réservés.</p>
+    </footer>
 
 </body>
 
