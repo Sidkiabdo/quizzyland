@@ -1,0 +1,8 @@
+[
+    { "img1": "assest/images/pictoword/boots.jpg", "img2": "assest/images/pictoword/trap.jpg", "answer": "bootstrap" },
+    { "img1": "assest/images/pictoword/py.jpg", "img2": "assest/images/pictoword/python.jpg", "answer": "python" },
+    { "img1": "assest/images/pictoword/coffee.jpg", "img2": "assest/images/pictoword/script.jpg", "answer": "javascript" },
+    { "img1": "assest/images/pictoword/pi.jpg", "img2": "assest/images/pictoword/pc.jpg", "answer": "php" },
+    { "img1": "assest/images/pictoword/git.jpg", "img2": "assest/images/pictoword/hub.jpg", "answer": "github" },
+    { "img1": "assest/images/pictoword/visual.jpg", "img2": "assest/images/pictoword/studio.jpg", "answer": "visuel studio" }
+]

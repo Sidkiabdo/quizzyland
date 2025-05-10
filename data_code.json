@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Que retourne cette fonction ?",
+    "code": "function estPair(n) {\n    return n % 2 === 0;\n}",
+    "answer1": "Vrai si le nombre est impair",
+    "answer2": "Vrai si le nombre est pair",
+    "answer3": "Toujours vrai",
+    "answer4": "Toujours faux",
+    "reponse": "Vrai si le nombre est pair"
+  },
+  {
+    "question": "Que fait ce code ?",
+    "code": "function inverserTexte(txt) {\n    return txt.split('').reverse().join('');\n}",
+    "answer1": "Convertit le texte en majuscules",
+    "answer2": "Trie les lettres par ordre alphabétique",
+    "answer3": "Inverse les caractères du texte",
+    "answer4": "Compte le nombre de mots",
+    "reponse": "Inverse les caractères du texte"
+  },
+  {
+    "question": "Quel est le rôle de cette fonction ?",
+    "code": "function carre(x) {\n    return x * x;\n}",
+    "answer1": "Additionne deux nombres",
+    "answer2": "Calcule la racine carrée",
+    "answer3": "Calcule le carré d’un nombre",
+    "answer4": "Divise le nombre par deux",
+    "reponse": "Calcule le carré d’un nombre"
+  },
+  {
+    "question": "Que fait cette fonction ?",
+    "code": "function estVide(arr) {\n    return arr.length === 0;\n}",
+    "answer1": "Vérifie si un tableau est vide",
+    "answer2": "Supprime les éléments d’un tableau",
+    "answer3": "Ajoute un élément au tableau",
+    "answer4": "Trie le tableau",
+    "reponse": "Vérifie si un tableau est vide"
+  },
+  {
+    "question": "Que renvoie ce code ?",
+    "code": "function min(a, b) {\n    return a < b ? a : b;\n}",
+    "answer1": "Le plus grand des deux nombres",
+    "answer2": "Le plus petit des deux nombres",
+    "answer3": "Toujours le premier nombre",
+    "answer4": "Toujours le deuxième nombre",
+    "reponse": "Le plus petit des deux nombres"
+  }
+]

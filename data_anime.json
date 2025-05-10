@@ -1,0 +1,92 @@
+[
+    {
+      "question": "Quel est le nom de ce personnage ?",
+      "photo": "assest\\images\\naruto.jpg",
+      "answer_1": "Naruto Uzumaki",
+      "answer_2": "Goku",
+      "answer_3": "Luffy",
+      "answer_4": "Ichigo",
+      "correct_answer": "Naruto Uzumaki"
+    },
+    {
+      "question": "Quel est le nom de ce personnage ?",
+      "photo": "assest\\images\\vegeta.jpg",
+      "answer_1": "Vegeta",
+      "answer_2": "Sasuke",
+      "answer_3": "Zoro",
+      "answer_4": "Levi",
+      "correct_answer": "Vegeta"
+    },
+    {
+      "question": "Quel est le nom de ce personnage ?",
+      "photo": "assest\\images\\eren.jpg",
+      "answer_1": "Eren Yeager",
+      "answer_2": "Tanjiro",
+      "answer_3": "Midoriya",
+      "answer_4": "Light Yagami",
+      "correct_answer": "Eren Yeager"
+    },
+    {
+      "question": "Quel est le nom de ce personnage ?",
+      "photo": "assest\\images\\luffy.jpg",
+      "answer_1": "Monkey D. Luffy",
+      "answer_2": "Natsu",
+      "answer_3": "Asta",
+      "answer_4": "Gon",
+      "correct_answer": "Monkey D. Luffy"
+    },
+    {
+      "question": "Quel est le nom de ce personnage ?",
+      "photo": "assest\\images\\light.jpg",
+      "answer_1": "Light Yagami",
+      "answer_2": "L Lawliet",
+      "answer_3": "Near",
+      "answer_4": "Mello",
+      "correct_answer": "Light Yagami"
+    },
+    {
+      "question": "Quel est le nom de ce personnage ?",
+      "photo": "assest\\images\\levi.jpg",
+      "answer_1": "Levi Ackerman",
+      "answer_2": "Killua",
+      "answer_3": "Sasuke",
+      "answer_4": "Itachi",
+      "correct_answer": "Levi Ackerman"
+    },
+    {
+      "question": "Quel est le nom de ce personnage ?",
+      "photo": "assest\\images\\goku.jpg",
+      "answer_1": "Son Goku",
+      "answer_2": "Naruto",
+      "answer_3": "Yusuke",
+      "answer_4": "Saitama",
+      "correct_answer": "Son Goku"
+    },
+    {
+      "question": "Quel est le nom de ce personnage ?",
+      "photo": "assest\\images\\saitama.jpg",
+      "answer_1": "Saitama",
+      "answer_2": "Genos",
+      "answer_3": "Bang",
+      "answer_4": "King",
+      "correct_answer": "Saitama"
+    },
+    {
+      "question": "Quel est le nom de ce personnage ?",
+      "photo": "assest\\images\\tanjiro.jpg",
+      "answer_1": "Tanjiro Kamado",
+      "answer_2": "Inosuke",
+      "answer_3": "Zenitsu",
+      "answer_4": "Rengoku",
+      "correct_answer": "Tanjiro Kamado"
+    },
+    {
+      "question": "Quel est le nom de ce personnage ?",
+      "photo": "assest\\images\\mikasa.jpg",
+      "answer_1": "Mikasa Ackerman",
+      "answer_2": "Nezuko",
+      "answer_3": "Sakura",
+      "answer_4": "Hinata",
+      "correct_answer": "Mikasa Ackerman"
+    }
+  ]

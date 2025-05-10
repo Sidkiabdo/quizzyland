@@ -1,0 +1,82 @@
+[
+    {
+        "name": "https://flagcdn.com/w320/fr.png",
+        "correct_answer": "France",
+        "answer_1": "Belgique",
+        "answer_2": "Russie",
+        "answer_3": "Luxembourg",
+        "answer_4": "France"
+    },
+    {
+        "name": "https://flagcdn.com/w320/us.png",
+        "correct_answer": "États-Unis",
+        "answer_1": "Royaume-Uni",
+        "answer_2": "Australie",
+        "answer_3": "Canada",
+        "answer_4": "États-Unis"
+    },
+    {
+        "name": "https://flagcdn.com/w320/jp.png",
+        "correct_answer": "Japon",
+        "answer_1": "Chine",
+        "answer_2": "Corée du Sud",
+        "answer_3": "Philippines",
+        "answer_4": "Japon"
+    },
+    {
+        "name": "https://flagcdn.com/w320/de.png",
+        "correct_answer": "Allemagne",
+        "answer_1": "Belgique",
+        "answer_2": "Pays-Bas",
+        "answer_3": "Allemagne",
+        "answer_4": "Danemark"
+    },
+    {
+        "name": "https://flagcdn.com/w320/it.png",
+        "correct_answer": "Italie",
+        "answer_1": "Mexique",
+        "answer_2": "Italie",
+        "answer_3": "Irlande",
+        "answer_4": "Hongrie"
+    },
+    {
+        "name": "https://flagcdn.com/w320/br.png",
+        "correct_answer": "Brésil",
+        "answer_1": "Brésil",
+        "answer_2": "Argentine",
+        "answer_3": "Portugal",
+        "answer_4": "Venezuela"
+    },
+    {
+        "name": "https://flagcdn.com/w320/ca.png",
+        "correct_answer": "Canada",
+        "answer_1": "Canada",
+        "answer_2": "Suisse",
+        "answer_3": "Norvège",
+        "answer_4": "Pérou"
+    },
+    {
+        "name": "https://flagcdn.com/w320/es.png",
+        "correct_answer": "Espagne",
+        "answer_1": "Portugal",
+        "answer_2": "Espagne",
+        "answer_3": "Grèce",
+        "answer_4": "Colombie"
+    },
+    {
+        "name": "https://flagcdn.com/w320/au.png",
+        "correct_answer": "Australie",
+        "answer_1": "Nouvelle-Zélande",
+        "answer_2": "Australie",
+        "answer_3": "Fidji",
+        "answer_4": "Royaume-Uni"
+    },
+    {
+        "name": "https://flagcdn.com/w320/ch.png",
+        "correct_answer": "Suisse",
+        "answer_1": "Suisse",
+        "answer_2": "Suède",
+        "answer_3": "Autriche",
+        "answer_4": "Lettonie"
+    }
+]

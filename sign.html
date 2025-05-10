@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Créer un compte - QuizzyLand</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="sticky-header">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Logo QuizzyLand" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <a href="login.html" class="login-btn">Se connecter</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="register-page">
+            <div class="register-container">
+                <h2>Créer un compte</h2>
+                <form >
+                    <label for="username">Nom d'utilisateur :</label>
+                    <input type="text" id="username" name="username" required />
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" id="password" name="password" required />
+
+                    <label for="confirm-password">Confirmer le mot de passe :</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required />
+
+                    <button type="submit">S'inscrire</button>
+                </form>
+                <p>Vous avez déjà un compte ? <a href="login.html">Se connecter</a></p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

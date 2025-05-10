@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuizzyLand</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="sticky-header">
+    <div class="logo">
+      <img src="assest\logo.png" alt="Logo QuizzyLand" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+        <li><a href="#about">À propos de nous</a></li>
+        <li><a href="#contact">Contactez-nous</a></li>
+      </ul>
+      <a href="login.html" class="login-btn">Se connecter</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="sect hero">
+      <h1 class="hero-title">Quiz pour Tous</h1>
+      <p class="hero-text">Explorez vos compétences tout en vous amusant.</p>
+      <a href="#quiz" class="cta-button">Commencer</a>
+    </section>
+
+    <section id="quiz" class="quiz sect fade-in">
+      <h2>Nos Quiz Disponibles 🎮</h2>
+      <div class="quiz-cards">
+        <div class="quiz-card">
+          <h3>Quiz Drapeaux</h3>
+          <p>Devinez les pays à partir de leurs drapeaux.</p>
+          <a href="quiz-flags.html" class="quiz-btn">choisir</a>
+        </div>
+        <div class="quiz-card">
+          <h3>Quiz Pictoword</h3>
+          <p>Devinez le mot combiné à partir de deux images.</p>
+          <a href="quiz-pictoword.html" class="quiz-btn">choisir</a>
+        </div>
+        <div class="quiz-card">
+          <h3>Quiz Anime</h3>
+          <p>Reconnaissez le titre d'anime d'apres l'image.</p>
+          <a href="quiz-anime.html" class="quiz-btn">choisir</a>
+        </div>
+        <div class="quiz-card">
+          <h3>Quiz Code</h3>
+          <p>Répondez à des questions sur le code et la logique.</p>
+          <a href="quiz-code.html" class="quiz-btn">choisir</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about" class="about sect fade-in">
+      <p>Bienvenue sur <strong>QuizzyLand</strong>, une plateforme interactive pour tester vos connaissances en
+        programmation et développement web.</p>
+      <img src="assest\logo.png" alt="Logo QuizzyLand" />
+    </section>
+
+    <section id="contact" class="contact sect fade-in">
+      <form>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="lastname">Prénom :</label>
+        <input type="text" id="lastname" name="lastname" />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+
+</html>
